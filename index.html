@@ -5,93 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Matthews</title>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #161616;
-            display: flex;
-            justify-content: center;
-            align-items: top;
-            min-height: 100vh;
-            font-family: 'Courier New', Courier, monospace
-        }
-        .container {
-            padding: 24px;
-            padding-top: 48px;
-            max-width: 992px;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: left;
-            gap: 1rem;
-        }
-        h1 {
-            font-size: 4rem;
-            color: #f5f5f5;
-            margin: 0;
-            font-weight: 600;
-            line-height: 4rem;
-        }
-        h2 {
-            font-size: 1.5rem;
-            line-height: 1.5rem;
-            color: #f5f5f5;
-            margin: 0;
-            font-weight: 400;
-            padding-top: 1rem;
-        }
-        h3 {
-            font-size: 1.5rem;
-            color: #a7a7a7;
-            margin: 0;
-            font-weight: 400;
-            line-height: 1.5rem;
-        }
-        .links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            padding-bottom: 1rem;
-        }
-        a {
-            color: #21aa7f;
-            font-size: 1rem;
-            transition: color 0.2s ease-in-out;
-        }
-        a:hover {
-            color: #ffffff;
-        }
-        p {
-            color: #a7a7a7;
-            margin: 0;
-            font-weight: 400;
-            font-size: 1rem;
-            line-height: 2rem;
-        }
-        .profile-pic {
-            height: 3rem;
-            width: 3rem;
-            object-fit: cover;
-            border-radius: 50%;
-        }
-        .image-block {
-            width: 100%;
-            border-radius: 1rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            transition: transform 0.5s ease-in-out;
-        }
-        .image-block:hover {
-            transform: scale(1.005);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div style="display: flex; align-items: center; gap: 1rem;">
-            <img src="https://pbs.twimg.com/profile_images/1818767216415846400/pu5xYd8H_400x400.jpg" class="profile-pic" alt="me"">
+            <img src="https://pbs.twimg.com/profile_images/1818767216415846400/pu5xYd8H_400x400.jpg" class="profile-pic" alt="me">
             <h1>Simon</h1>
+            <div style="flex-grow: 1;"></div>
+            <a href="https://calendly.com/simonmxtthews/coffee-chat" target="_blank" rel="noopener noreferrer">
+                <button class="coffee-button">☕️ Coffee!</button>
+            </a>
         </div>
         <h3>I'm just a guy from Toronto 🇨🇦</h3>
         <div class="links">
@@ -100,9 +24,11 @@
             <a href="https://x.com/simonmxtthews">𝕏</a>
             <a href="https://github.com/simonmxtthews">hub of git</a>
             <a href="https://www.linkedin.com/in/matthews-">silly blue site</a>
+            <a href="/bots.html">I am a robot</a>
         </div>
+
         <p>Hey, I'm Simon. As suggested from the title, I'm a guy from Toronto. More specifically perhaps, I'm a guy from Toronto who happens to love building things, especially on the internet.</p>
-        <p>One day, I want to build things in real life, as I did when I was a kid. I think this is the circle of life for most technical founders. Speaking of which, canada is in desparate need of a rocket company</p>
+        <p>One day, I want to build physical things, as I did when I was a kid. I think this is the circle of life for most technical founders. Speaking of which, Canada is in desparate need of orbital launch capabilties.</p>
         </p>
         <h2>SideQuests</h2>
         <p>My main project is SideQuests, an experience-sharing platform meant to get you back outside. Think of pokemon go, but for catching experiences.</p>
