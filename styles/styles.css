@@ -13,6 +13,7 @@ a {
     text-decoration-thickness: 1px;
     text-underline-offset: 0.2rem;
     transition: opacity 0.2s ease;
+    line-height: 1.5rem;
 }
 
 a:hover {
@@ -103,7 +104,7 @@ p {
     object-fit: cover;
 }
 
-.about-footer-links {
+.about-link-section {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -111,14 +112,14 @@ p {
     gap: 1rem;
 }
 
-.footer-link {
+.about-link {
     position: relative;
     display: inline-block;
     width: 100%;
     transition: opacity 0.2s ease;
 }
 
-.footer-link img {
+.about-link img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -136,16 +137,29 @@ p {
   opacity: 0;
 }
 
-.footer-link:hover .image-hover-text {
+.about-link:hover .image-hover-text {
   opacity: 1;
   transition: opacity 0.2s ease;
+}
+
+.about-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.about-footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 50%;
 }
 
 .work-header {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-bottom: 1rem;
 }
 
 .horizontal-divider {
@@ -153,6 +167,7 @@ p {
     height: 1px;
     background-color: #242424;
     opacity: 0.1;
+    margin-bottom: 1rem;
 }
 
 .project-header {
@@ -160,7 +175,6 @@ p {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    margin-top: 0.5rem;
 }
 
 .project-label {
