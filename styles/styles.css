@@ -157,6 +157,18 @@ p {
     width: 100%;
 }
 
+.social-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-small {
+    width: 1rem;
+    height: 1rem;
+}
+
 .work-header {
     display: flex;
     flex-direction: row;
