@@ -248,8 +248,31 @@ p {
     transition: opacity 0.2s ease;
 }
 
+.journal-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.journal-card {
+    width: 100%;
+    height: 8rem;
+}
+
+.journal-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
 @media (max-width: 768px) {
     .about-footer {
+        flex-direction: column;
+    }
+    
+    .journal-grid {
+        display: flex;
         flex-direction: column;
     }
 }
